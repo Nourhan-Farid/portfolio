@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer";
 import Image from "next/image";
 import CVDownLoad from "../../_Components/CVDownLoad/CVDownLoad";
 import { useEffect } from "react";
-// grid lg:grid-cols-2 gap-16
+
 export default function About() {
   const controls = useAnimation();
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
