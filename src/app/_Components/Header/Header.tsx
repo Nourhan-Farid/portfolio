@@ -2,9 +2,8 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence, useScroll } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import Link from "next/link";
 import ThemeToggle from "../ThemeToggle/ThemeToggle";
-export const Header: React.FC = () => {
+export default function Header() {
   const logoText = "Nourhan Farid";
   const navigation = [
     { name: "Home", href: "/" },
@@ -125,4 +124,4 @@ export const Header: React.FC = () => {
       </AnimatePresence>
     </motion.header>
   );
-};
+}

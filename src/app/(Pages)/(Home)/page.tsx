@@ -1,13 +1,13 @@
 "use client";
 
-import { Header } from "@/app/_Components/Header/Header";
-import { HeroSection } from "../HeroSection/page";
+import Header from "@/app/_Components/Header/Header";
+import HeroSection from "../HeroSection/page";
 import About from "../About/page";
 import Projects from "../Projects/page";
 import Skills from "../Skills/page";
 import Contact from "../Contact/page";
 import Footer from "@/app/_Components/Footer/Footer";
-import { ScrollProgress } from "@/app/_Components/ScrollingProgress/ScrollingProgress";
+import ScrollProgress from "@/app/_Components/ScrollingProgress/ScrollingProgress";
 import ScrollingUpIcon from "@/app/_Components/ScrollingUpIcon/ScrollingUpIcon";
 
 export default function App() {

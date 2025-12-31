@@ -4,7 +4,7 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import { ArrowUp } from "lucide-react";
 
 // Scroll Progress Indicator Component
-export const ScrollProgress: React.FC = () => {
+export default function ScrollProgress(){
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
