@@ -75,7 +75,7 @@ export default function Contact() {
               <h2 className="text-4xl md:text-5xl font-bold text-[#003783] dark:text-white mb-4">
                 Let's Work Together
               </h2>
-              <p className="text-xl text-gray-600">
+              <p className="text-xl text-gray-600 dark:text-white/80">
                 Have a project in mind? Let's discuss how I can help bring your
                 vision to life.
               </p>
