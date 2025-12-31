@@ -6,7 +6,7 @@ import gsap from "gsap";
 import Link from "next/link";
 import Socials from "../../_Components/Socials/Socials";
 
-export const HeroSection: React.FC = () => {
+export default function HeroSection() {
   const containerRef = useRef<HTMLDivElement>(null);
   const textRef = useRef<HTMLHeadingElement>(null);
 
@@ -124,4 +124,4 @@ export const HeroSection: React.FC = () => {
       </motion.div>
     </section>
   );
-};
+}
