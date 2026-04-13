@@ -15,7 +15,7 @@ export default function Contact() {
   const [status, setStatus] = useState("");
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -35,7 +35,7 @@ export default function Contact() {
           message: formData.message,
           to_email: "nourhanfarid883@gmail.com", // Your email to receive messages
         },
-        "fF--nn66W8SSAwUIF" // Replace with your EmailJS Public Key
+        "fF--nn66W8SSAwUIF", // Replace with your EmailJS Public Key
       );
       setStatus("Message sent successfully!");
       setFormData({ name: "", email: "", message: "" });
@@ -58,7 +58,7 @@ export default function Contact() {
 
   return (
     <div className="bg-white dark:bg-gray-900">
-      <section id="Contact" className="py-24">
+      <section id="Contact" className="py-20">
         <div className="container mx-auto px-6">
           <motion.div
             ref={ref}

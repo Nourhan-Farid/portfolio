@@ -25,7 +25,7 @@ const skills = [
   {
     name: "HTML",
     icon: <FaHtml5 className="text-orange-500 text-4xl" />,
-    description: "Cascading Style Sheets",
+    description: "HyperText Markup Language",
   },
   {
     name: "CSS",
@@ -35,7 +35,7 @@ const skills = [
   {
     name: "JS",
     icon: <FaJs className="text-yellow-300 text-4xl" />,
-    description: "Cascading Style Sheets",
+    description: "Javascript",
   },
   {
     name: "React",
@@ -124,7 +124,7 @@ export default function Skills() {
   return (
     <section
       id="Skills"
-      className="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col items-center justify-center px-6 py-24"
+      className="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col items-center justify-center px-6 py-20"
     >
       <h1 className="text-4xl font-bold mb-8 text-[#003783] dark:text-white">
         My Skills

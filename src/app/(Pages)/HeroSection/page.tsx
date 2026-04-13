@@ -41,7 +41,7 @@ export default function HeroSection() {
     <section
       id="Home"
       ref={containerRef}
-      className="relative min-h-screen bg-white dark:bg-gray-900 flex items-center justify-center px-6 py-20 overflow-hidden transition-colors duration-300"
+      className="relative min-h-screen bg-white dark:bg-gray-900 flex items-center justify-center px-6 py-0 sm:py-20 overflow-hidden transition-colors duration-300"
     >
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-1/2 -left-1/2 w-[200%] h-[200%] bg-[radial-gradient(circle_at_center,var(--tw-gradient-stops))] from-white via-white/30 to-white/10 dark:from-gray-900/80 dark:via-gray-700/30 dark:to-gray-600/30  animate-spin-slow" />
@@ -84,7 +84,7 @@ export default function HeroSection() {
           >
             <Link
               href="/Projects"
-              className="flex items-center justify-center px-8 py-4 bg-[#003783]  text-white  rounded-full font-medium hover:scale-105 active:scale-95 transition-all duration-200"
+              className="flex items-center justify-center px-7 py-4 bg-[#003783]  text-white  rounded-full font-medium hover:scale-105 active:scale-95 transition-all duration-200"
             >
               <span className="mr-2">View Work</span>
               <ArrowRight className="w-5 h-5" />
