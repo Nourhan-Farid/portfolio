@@ -22,7 +22,7 @@ export default function HeroSection() {
           duration: 1,
           ease: "power4.out",
           delay: 0.5,
-        }
+        },
       );
     }, containerRef);
 
@@ -60,7 +60,7 @@ export default function HeroSection() {
             </h2>
             <h1
               ref={textRef}
-              className="text-5xl md:text-7xl lg:text-8xl font-bold dark:text-white text-[#003783] leading-tight tracking-tight"
+              className="text-4xl md:text-7xl lg:text-8xl font-bold dark:text-white text-[#003783] leading-tight tracking-tight"
             >
               {splitText("Frontend Developer")}
             </h1>

@@ -9,21 +9,27 @@ import Contact from "../Contact/page";
 import Footer from "@/app/_Components/Footer/Footer";
 import ScrollProgress from "@/app/_Components/ScrollingProgress/ScrollingProgress";
 import ScrollingUpIcon from "@/app/_Components/ScrollingUpIcon/ScrollingUpIcon";
+import Head from "next/head";
 
 export default function App() {
   return (
-    <div className="min-h-screen">
-      <main className="bg-white dark:bg-zinc-900 min-h-screen transition-colors duration-300">
-        <Header />
-        <HeroSection />
-        <About />
-        <Projects />
-        <Skills />
-        <Contact />
-        <Footer />
-      </main>
-      <ScrollProgress />
-      <ScrollingUpIcon />
-    </div>
+    <>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
+      <div className="min-h-screen">
+        <main className="bg-white dark:bg-zinc-900 min-h-screen transition-colors duration-300">
+          <Header />
+          <HeroSection />
+          <About />
+          <Projects />
+          <Skills />
+          <Contact />
+          <Footer />
+        </main>
+        <ScrollProgress />
+        <ScrollingUpIcon />
+      </div>
+    </>
   );
 }
